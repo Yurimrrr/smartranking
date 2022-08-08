@@ -1,9 +1,11 @@
 <template>
-  <v-app>
+  <v-app id="inspire">
     <NavBar/>
-    <v-contet>
-      <router-view></router-view>
-    </v-contet>
+    <v-main class="indigo lighten-5">
+      <v-contet>
+        <router-view></router-view>
+      </v-contet>
+    </v-main>
   </v-app>
 </template>
 
@@ -14,7 +16,7 @@ export default {
   name: 'App',
   components: { NavBar },
   data: () => ({
-    //
+    
   }),
 };
 </script>
