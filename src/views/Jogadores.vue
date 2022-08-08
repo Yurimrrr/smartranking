@@ -24,7 +24,33 @@ export default{
         {
           nome: "Teste"
         }
-        ],
+      ],
+      jogadores: [
+        {
+          nome: "Yuri",
+          categoria: { 
+            nome: "A"
+          },
+        },
+        {
+          nome: "Cleitinho",
+          categoria: { 
+            nome: "B"
+          },
+        },
+        {
+          nome: "Matheus",
+          categoria: { 
+            nome: "C"
+          },
+        },
+        {
+          nome: "Igor",
+          categoria: { 
+            nome: "A"
+          },
+        }
+      ]
     }
   })
 }

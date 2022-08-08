@@ -16,7 +16,7 @@
       <v-tabs
         centered
         class="ml-n9"
-        color="grey darken-1"
+        color="white darken-1"
       >
         <v-tab
           v-for="link in links"
